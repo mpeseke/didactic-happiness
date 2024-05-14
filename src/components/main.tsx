@@ -12,10 +12,10 @@ export default function Main() {
   return (
     <main className="app">
       <div className="container">
-        <section className="section">
+        <section className="section is-medium">
           <Calendar onChange={setDate} value={date} />
         </section>
-        <section className="section is-large">
+        <section className="container">
           <Tracker date={date?.toString()} />
         </section>
       </div>
