@@ -1,8 +1,9 @@
 .header {
   background-color:#646cff;
   padding: 1rem 0 1rem 0; 
+  width: 100vw;
 }
 
-.header-text {
-  margin: 0;
+.app {
+  width: 100vw;
 }
